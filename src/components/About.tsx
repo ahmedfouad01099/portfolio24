@@ -6,7 +6,7 @@ import AboutImg from '../../public/assets/IMG_20241005_041742.jpg';
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mt-[17rem]">
         <div
           className="col-span-2"
           data-aos="fade-right"
