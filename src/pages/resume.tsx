@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import {FaGithub, FaLinkedinIn, FaDownload} from 'react-icons/fa';
-import ResumeShot from 'public/assets/Nosarumen_Imuentinyan_Resume.jpg';
+import ResumeShot from '../../public/assets/Nosarumen_Imuentinyan_Resume.jpg';
 import PDFViewer from 'pdf-viewer-reactjs';
 import {Viewer, Worker} from '@react-pdf-viewer/core';
 import {defaultLayoutPlugin} from '@react-pdf-viewer/default-layout';

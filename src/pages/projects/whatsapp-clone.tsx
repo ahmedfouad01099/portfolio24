@@ -1,4 +1,4 @@
-import WhatsappImg from "public/assets/projects/whatsapp-web-clone/whatsapp.png";
+import WhatsappImg from "../../public/assets/projects/whatsapp-web-clone/whatsapp.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";

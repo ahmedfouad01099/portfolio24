@@ -1,81 +1,81 @@
-import ReactImg from 'public/assets/skills/react.png';
-import ReduxImg from 'public/assets/skills/redux.png';
-import FirebaseImg from 'public/assets/skills/firebase.png';
-import LogRocketImg from 'public/assets/skills/logrocket.png';
-import NextJS from 'public/assets/skills/nextjs.png';
-import Javascript from 'public/assets/skills/javascript.png';
-import Typescript from 'public/assets/skills/typescript.png';
-import Node from 'public/assets/skills/node.png';
-import MongoImg from 'public/assets/skills/mongo.png';
-import ExpressImg from 'public/assets/skills/express.png';
-import AWSImg from 'public/assets/skills/aws.png';
-import ApolloImg from 'public/assets/skills/apollo.webp';
+import ReactImg from '../../public/assets/skills/react.png';
+import ReduxImg from '../../public/assets/skills/redux.png';
+import FirebaseImg from '../../public/assets/skills/firebase.png';
+import LogRocketImg from '../../public/assets/skills/logrocket.png';
+import NextJS from '../../public/assets/skills/nextjs.png';
+import Javascript from '../../public/assets/skills/javascript.png';
+import Typescript from '../../public/assets/skills/typescript.png';
+import Node from '../../public/assets/skills/node.png';
+import MongoImg from '../../public/assets/skills/mongo.png';
+import ExpressImg from '../../public/assets/skills/express.png';
+import AWSImg from '../../public/assets/skills/aws.png';
+import ApolloImg from '../../public/assets/skills/apollo.webp';
 
-import Git from 'public/assets/skills/git.png';
-import BitbucketImg from 'public/assets/skills/bitbucket.webp';
+import Git from '../../public/assets/skills/git.png';
+import BitbucketImg from '../../public/assets/skills/bitbucket.webp';
 
-import PhpImg from 'public/assets/skills/php.png';
-import LaravelImg from 'public/assets/skills/laravel.png';
-import Mysql from 'public/assets/skills/mysql.svg';
-import VueJs from 'public/assets/skills/vuejs.png';
+import PhpImg from '../../public/assets/skills/php.png';
+import LaravelImg from '../../public/assets/skills/laravel.png';
+import Mysql from '../../public/assets/skills/mysql.svg';
+import VueJs from '../../public/assets/skills/vuejs.png';
 
-import Docker from 'public/assets/skills/docker.png';
-import Tailwind from 'public/assets/skills/tailwind.png';
+import Docker from '../../public/assets/skills/docker.png';
+import Tailwind from '../../public/assets/skills/tailwind.png';
 //
-import WhatsappClone from 'public/assets/projects/whatsapp-web-clone/whatsapp.png';
-import Easymunch from 'public/assets/projects/easy-munch/munch.png';
-import ReactDashboard from 'public/assets/projects/react-dashboard/dashboard.png';
-import MovieApp from 'public/assets/projects/react-movie-app/movie.png';
+import WhatsappClone from '../../public/assets/projects/whatsapp-web-clone/whatsapp.png';
+import Easymunch from '../../public/assets/projects/easy-munch/munch.png';
+import ReactDashboard from '../../public/assets/projects/react-dashboard/dashboard.png';
+import MovieApp from '../../public/assets/projects/react-movie-app/movie.png';
 
 // ====================================================
 
-import LOC_thumb from 'public/assets/projects/mobile/LOC/Mobile/1.webp';
-import LOC_thumb2 from 'public/assets/projects/mobile/LOC/Mobile/2.webp';
-import LOC_thumb3 from 'public/assets/projects/mobile/LOC/Mobile/3.webp';
-import LOC_thumb4 from 'public/assets/projects/mobile/LOC/Mobile/4.webp';
-import LOC_thumb5 from 'public/assets/projects/mobile/LOC/Mobile/5.webp';
+import LOC_thumb from '../../public/assets/projects/mobile/LOC/Mobile/1.webp';
+import LOC_thumb2 from '../../public/assets/projects/mobile/LOC/Mobile/2.webp';
+import LOC_thumb3 from '../../public/assets/projects/mobile/LOC/Mobile/3.webp';
+import LOC_thumb4 from '../../public/assets/projects/mobile/LOC/Mobile/4.webp';
+import LOC_thumb5 from '../../public/assets/projects/mobile/LOC/Mobile/5.webp';
 
-import Cannula_thumb from 'public/assets/projects/mobile/Caniola/Mobile/1.webp';
-import Cannula_thumb2 from 'public/assets/projects/mobile/Caniola/Mobile/2.webp';
-import Cannula_thumb3 from 'public/assets/projects/mobile/Caniola/Mobile/3.webp';
-import Cannula_thumb4 from 'public/assets/projects/mobile/Caniola/Mobile/4.webp';
-import Cannula_thumb5 from 'public/assets/projects/mobile/Caniola/Mobile/5.webp';
-import Cannula_thumb6 from 'public/assets/projects/mobile/Caniola/Mobile/6.webp';
-import Cannula_thumb7 from 'public/assets/projects/mobile/Caniola/Mobile/7.webp';
-import Cannula_thumb8 from 'public/assets/projects/mobile/Caniola/Mobile/8.webp';
-import Cannula_thumb9 from 'public/assets/projects/mobile/Caniola/Mobile/9.webp';
+import Cannula_thumb from '../../public/assets/projects/mobile/Caniola/Mobile/1.webp';
+import Cannula_thumb2 from '../../public/assets/projects/mobile/Caniola/Mobile/2.webp';
+import Cannula_thumb3 from '../../public/assets/projects/mobile/Caniola/Mobile/3.webp';
+import Cannula_thumb4 from '../../public/assets/projects/mobile/Caniola/Mobile/4.webp';
+import Cannula_thumb5 from '../../public/assets/projects/mobile/Caniola/Mobile/5.webp';
+import Cannula_thumb6 from '../../public/assets/projects/mobile/Caniola/Mobile/6.webp';
+import Cannula_thumb7 from '../../public/assets/projects/mobile/Caniola/Mobile/7.webp';
+import Cannula_thumb8 from '../../public/assets/projects/mobile/Caniola/Mobile/8.webp';
+import Cannula_thumb9 from '../../public/assets/projects/mobile/Caniola/Mobile/9.webp';
 
-import Hedeya_thumb from 'public/assets/projects/mobile/Hedeya/1.webp';
-import Hedeya_thumb2 from 'public/assets/projects/mobile/Hedeya/2.webp';
-import Hedeya_thumb3 from 'public/assets/projects/mobile/Hedeya/3.webp';
-import Hedeya_thumb4 from 'public/assets/projects/mobile/Hedeya/4.webp';
+import Hedeya_thumb from '../../public/assets/projects/mobile/Hedeya/1.webp';
+import Hedeya_thumb2 from '../../public/assets/projects/mobile/Hedeya/2.webp';
+import Hedeya_thumb3 from '../../public/assets/projects/mobile/Hedeya/3.webp';
+import Hedeya_thumb4 from '../../public/assets/projects/mobile/Hedeya/4.webp';
 
-import Usedo_thumb from 'public/assets/projects/mobile/Usedo/1.webp';
-import Usedo_thumb2 from 'public/assets/projects/mobile/Usedo/2.webp';
-import Usedo_thumb3 from 'public/assets/projects/mobile/Usedo/3.webp';
-import Usedo_thumb4 from 'public/assets/projects/mobile/Usedo/4.webp';
+import Usedo_thumb from '../../public/assets/projects/mobile/Usedo/1.webp';
+import Usedo_thumb2 from '../../public/assets/projects/mobile/Usedo/2.webp';
+import Usedo_thumb3 from '../../public/assets/projects/mobile/Usedo/3.webp';
+import Usedo_thumb4 from '../../public/assets/projects/mobile/Usedo/4.webp';
 
-import Tactec_thumb from 'public/assets/projects/mobile/Tactec/6.webp';
-import Tactec_thumb1 from 'public/assets/projects/mobile/Tactec/1.webp';
-import Tactec_thumb2 from 'public/assets/projects/mobile/Tactec/2.webp';
-import Tactec_thumb3 from 'public/assets/projects/mobile/Tactec/3.webp';
-import Tactec_thumb4 from 'public/assets/projects/mobile/Tactec/4.webp';
-import Tactec_thumb5 from 'public/assets/projects/mobile/Tactec/5.webp';
-import Tactec_thumb6 from 'public/assets/projects/mobile/Tactec/7.webp';
-import Tactec_thumb7 from 'public/assets/projects/mobile/Tactec/8.webp';
+import Tactec_thumb from '../../public/assets/projects/mobile/Tactec/6.webp';
+import Tactec_thumb1 from '../../public/assets/projects/mobile/Tactec/1.webp';
+import Tactec_thumb2 from '../../public/assets/projects/mobile/Tactec/2.webp';
+import Tactec_thumb3 from '../../public/assets/projects/mobile/Tactec/3.webp';
+import Tactec_thumb4 from '../../public/assets/projects/mobile/Tactec/4.webp';
+import Tactec_thumb5 from '../../public/assets/projects/mobile/Tactec/5.webp';
+import Tactec_thumb6 from '../../public/assets/projects/mobile/Tactec/7.webp';
+import Tactec_thumb7 from '../../public/assets/projects/mobile/Tactec/8.webp';
 
-import Salahub_thumb from 'public/assets/projects/mobile/Salahub/1.webp';
-import Salahub_thumb2 from 'public/assets/projects/mobile/Salahub/2.webp';
-import Salahub_thumb3 from 'public/assets/projects/mobile/Salahub/3.webp';
-import Salahub_thumb4 from 'public/assets/projects/mobile/Salahub/4.webp';
+import Salahub_thumb from '../../public/assets/projects/mobile/Salahub/1.webp';
+import Salahub_thumb2 from '../../public/assets/projects/mobile/Salahub/2.webp';
+import Salahub_thumb3 from '../../public/assets/projects/mobile/Salahub/3.webp';
+import Salahub_thumb4 from '../../public/assets/projects/mobile/Salahub/4.webp';
 // brand logo import here
 
-import LOC_Logo from 'public/assets/projects/mobile/LOC/logo.webp';
-import Canunla_Logo from 'public/assets/projects/mobile/Caniola/logo.webp';
-import Hedeya_Logo from 'public/assets/projects/mobile/Hedeya/logo.webp';
-import Usedo_Logo from 'public/assets/projects/mobile/Usedo/logo.webp';
-import Tactec_Logo from 'public/assets/projects/mobile/Tactec/logo.webp';
-import Salahub_Logo from 'public/assets/projects/mobile/Salahub/logo.webp';
+import LOC_Logo from '../../public/assets/projects/mobile/LOC/logo.webp';
+import Canunla_Logo from '../../public/assets/projects/mobile/Caniola/logo.webp';
+import Hedeya_Logo from '../../public/assets/projects/mobile/Hedeya/logo.webp';
+import Usedo_Logo from '../../public/assets/projects/mobile/Usedo/logo.webp';
+import Tactec_Logo from '../../public/assets/projects/mobile/Tactec/logo.webp';
+import Salahub_Logo from '../../public/assets/projects/mobile/Salahub/logo.webp';
 
 export const skills = [
   {
