@@ -78,6 +78,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: node-app
+          path: ./dist
+        with:
           path: ./out
 
   # Deployment job
