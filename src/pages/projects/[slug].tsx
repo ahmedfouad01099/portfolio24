@@ -1,4 +1,3 @@
-import WhatsappImg from '../../public/assets/projects/whatsapp-web-clone/whatsapp.png';
 import Image from 'next/image';
 import {RiRadioButtonFill} from 'react-icons/ri';
 import Link from 'next/link';
@@ -116,7 +115,7 @@ const WhatsappClone = () => {
                 {currentProject?.features?.map((feature, i) => {
                   return (
                     <div key={i}>
-                      <h3 className='mt-8'>{feature.head}</h3>
+                      <h3 className="mt-8">{feature.head}</h3>
                       {feature.desc?.map((desc, i) => {
                         return <li key={i}>{desc}</li>;
                       })}
