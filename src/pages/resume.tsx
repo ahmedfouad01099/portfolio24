@@ -12,13 +12,14 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const ResumePdf = () => {
-  const resumePdfLink = '../../assets/ahmedfouad2024.pdf';
+  const prodResumePdfLink = '/portfolio24/assets/ahmedfouad2024.pdf'; // production link
+  const devResumePdfLink = '/assets/ahmedfouad2024.pdf'; // dev link
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   return (
     <>
       <div className="relative">
         <div className="absolute top-0 right-0 z-10 flex items-center justify-center">
-          <a href={resumePdfLink} download className="p-0">
+          <a href={prodResumePdfLink} download className="p-0">
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer scale-75 hover:scale-100 ease-in  hover:bg-secondary duration-300 ">
               <FaDownload title="download resume" />
             </div>
@@ -33,7 +34,7 @@ const ResumePdf = () => {
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.js">
           <div style={{height: '750px'}}>
             <Viewer
-              fileUrl={resumePdfLink}
+              fileUrl={prodResumePdfLink}
               plugins={[defaultLayoutPluginInstance]}
             />
           </div>
