@@ -75,7 +75,7 @@ import Salahub_Logo from '../../public/assets/projects/mobile/Salahub/logo.webp'
 
 // ===========================================================================================
 
-import VendoriaNode from '../../public/assets/projects/node/Vendoria.png';
+import VendoriaNode from '../../public/assets/projects/node/vendoria.png';
 import VendoriaLogo from '../../public/assets/projects/node/logo.png';
 
 // =============================================================================
