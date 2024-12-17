@@ -22,10 +22,6 @@ import VueJs from '../../public/assets/skills/vuejs.png';
 import Docker from '../../public/assets/skills/docker.png';
 import Tailwind from '../../public/assets/skills/tailwind.png';
 //
-import WhatsappClone from '../../public/assets/projects/whatsapp-web-clone/whatsapp.png';
-import Easymunch from '../../public/assets/projects/easy-munch/munch.png';
-import ReactDashboard from '../../public/assets/projects/react-dashboard/dashboard.png';
-import MovieApp from '../../public/assets/projects/react-movie-app/movie.png';
 
 // ====================================================
 
@@ -76,6 +72,21 @@ import Hedeya_Logo from '../../public/assets/projects/mobile/Hedeya/logo.webp';
 import Usedo_Logo from '../../public/assets/projects/mobile/Usedo/logo.webp';
 import Tactec_Logo from '../../public/assets/projects/mobile/Tactec/logo.webp';
 import Salahub_Logo from '../../public/assets/projects/mobile/Salahub/logo.webp';
+
+// ===========================================================================================
+
+import VendoriaNode from '../../public/assets/projects/node/Vendoria.png';
+import VendoriaLogo from '../../public/assets/projects/node/logo.png';
+
+// =============================================================================
+
+import Vendoria_Dashboard_thumb from '../../public/assets/projects/front/vendoria/dashboard/1.png';
+import Vendoria_Dashboard_thumb1 from '../../public/assets/projects/front/vendoria/dashboard/2.png';
+import Vendoria_Dashboard_thumb2 from '../../public/assets/projects/front/vendoria/dashboard/3.png';
+import Vendoria_Dashboard_thumb3 from '../../public/assets/projects/front/vendoria/dashboard/4.png';
+import Vendoria_Dashboard_thumb4 from '../../public/assets/projects/front/vendoria/dashboard/5.png';
+import Vendoria_Dashboard_thumb5 from '../../public/assets/projects/front/vendoria/dashboard/6.png';
+import Vendoria_Dashboard_thumb6 from '../../public/assets/projects/front/vendoria/dashboard/7.png';
 
 export const skills = [
   {
@@ -163,33 +174,6 @@ export const skills = [
     image: Docker,
   },
 ];
-
-// export const projects = [
-//   {
-//     name: 'LOC App',
-//     image: WhatsappClone,
-//     projectUrl: '/projects/whatsapp-clone',
-//     tech: 'Next JS',
-//   },
-//   {
-//     name: 'Easymunch',
-//     image: Easymunch,
-//     projectUrl: '/projects/easy-munch',
-//     tech: 'React JS',
-//   },
-//   {
-//     name: 'React Dashboard',
-//     image: ReactDashboard,
-//     projectUrl: '/projects/react-dashboard',
-//     tech: 'React JS',
-//   },
-//   {
-//     name: 'React Movie App',
-//     image: MovieApp,
-//     projectUrl: '/projects/movie-app',
-//     tech: 'React JS',
-//   },
-// ];
 
 export const projects = [
   {
@@ -887,7 +871,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 6,
     show: false,
     thumb_img: Tactec_thumb,
     thumb_imgs: [
@@ -923,22 +907,22 @@ export const projects = [
       'React Navigation',
       'React (TanStack) Query',
       'Babel',
-	  'Logging and Monitoring',
-	  'Push Notifications',
-	  'Local Storage',
-	  'Firebase',
-	  'API Management',
-	  'Form Management',
-	  'Internationalization',
-	  'Date Manipulation',
-	  'File Handling',
-	  'Image Handling',
-	  'Gesture Handling',
-	  'Calendar Management',
-	  'Safe Area Handling',
-	  'React Query',
-	  'Vector Icons',
-	  'WebView',
+      'Logging and Monitoring',
+      'Push Notifications',
+      'Local Storage',
+      'Firebase',
+      'API Management',
+      'Form Management',
+      'Internationalization',
+      'Date Manipulation',
+      'File Handling',
+      'Image Handling',
+      'Gesture Handling',
+      'Calendar Management',
+      'Safe Area Handling',
+      'React Query',
+      'Vector Icons',
+      'WebView',
     ],
     features: [
       {
@@ -1117,6 +1101,400 @@ export const projects = [
       },
     ],
   },
+  // vendoria backend
+  {
+    id: 7,
+    show: false,
+    thumb_img: VendoriaNode,
+    thumb_imgs: [VendoriaNode],
+    brand_logo: VendoriaLogo,
+    job_title: 'Backend E-commerce system',
+    title: `Vendoria Backend`,
+    des: `Your app for managing 4 different journey inside the football world (players, tactical, medical & management) to help the club and increase efficiency`,
+    delay: '.5s',
+    category: 'Backend Development',
+    filter_id: [
+      'all',
+      'Design Work',
+      'Branding',
+      'Development',
+      'Illusutration',
+      'App Development',
+    ],
+    projectUrl:
+      'https://www.apidog.com/apidoc/shared-fd59d3bb-1115-4e3a-b8f5-3fe5a56ca00d/doc-705458',
+    gitHubCode: 'https://github.com/Vendoria/backend',
+    technologies: [
+      'Javascript',
+      'express',
+      'express-rate-limit',
+      'mongoose',
+      'mongoose-sequence',
+      'jsonwebtoken',
+      'js-cookie',
+      'socket.io',
+      'bcryptjs',
+      'axios',
+      'body-parser',
+      'cloudinary',
+      'cors',
+      'dayjs',
+      'dotenv',
+      'helmet',
+      'nodemailer',
+      'stripe',
+      'uuid',
+      'stripe',
+      '@paypal/checkout-server-sdk',
+    ],
+    features: [
+      {
+        head: 'User Authentication and Authorization',
+        desc: [
+          'Use bcryptjs for hashing passwords.',
+          'Implement jsonwebtoken for token-based authentication.',
+          'Secure routes to ensure only authorized users can access certain functionalities.',
+        ],
+      },
+      {
+        head: 'Payment Processing',
+        desc: [
+          'Integrate PayPal using the @paypal/checkout-server-sdk for handling transactions.',
+          'Optionally, integrate Stripe for additional payment options.',
+        ],
+      },
+      {
+        head: 'Database Management',
+        desc: [
+          'Use mongoose for MongoDB interactions, including schemas and models.',
+          'Implement mongoose-sequence for auto-incrementing fields (like user IDs).',
+        ],
+      },
+      {
+        head: 'File Uploads and Management',
+        desc: [
+          'Use Cloudinary for storing and retrieving images and files uploaded by users.',
+          'Implement file validation and resizing.',
+        ],
+      },
+      {
+        head: 'Email Notifications',
+        desc: [
+          'Use nodemailer to send email notifications for user registration, password resets, and transaction confirmations.',
+        ],
+      },
+      {
+        head: 'Real-Time Communication',
+        desc: [
+          'Implement Socket.IO for real-time updates (e.g., notifications, chat features).',
+        ],
+      },
+      {
+        head: 'Rate Limiting',
+        desc: [
+          'Use express-rate-limit to limit the number of requests from clients, enhancing security against DDoS attacks.',
+        ],
+      },
+      {
+        head: 'Data Validation and Parsing',
+        desc: [
+          'Use body-parser to parse incoming request bodies in a middleware before your handlers.',
+          'Validate user input using a library like Joi during request handling.',
+        ],
+      },
+      {
+        head: 'Cross-Origin Resource Sharing (CORS)',
+        desc: [
+          'Implement cors to allow your API to be accessed from different domains.',
+        ],
+      },
+      {
+        head: 'Cookie Management',
+        desc: [
+          'Use js-cookie for managing cookies in the client-side to maintain user sessions.',
+        ],
+      },
+      {
+        head: 'Date Handling',
+        desc: [
+          'Use dayjs for formatting and manipulating dates throughout the application.',
+        ],
+      },
+      {
+        head: 'Error Handling and Security',
+        desc: [
+          'Use helmet to set various HTTP headers for security.',
+          'Implement centralized error handling middleware to manage errors gracefully.',
+        ],
+      },
+      {
+        head: 'Unique Identifiers',
+        desc: ['Generate unique IDs for users or transactions using uuid.'],
+      },
+      {
+        head: 'User Profiles and Administration',
+        desc: [
+          'Implement user profile management, allowing users to update their information.',
+          'Create an admin panel for managing users, transactions, and content.',
+        ],
+      },
+      {
+        head: 'Logs and Monitoring',
+        desc: [
+          'Implement logging for tracking API requests and errors (consider using morgan).',
+          'Set up monitoring for performance metrics and error tracking.',
+        ],
+      },
+      {
+        head: 'Image Handling',
+        desc: [
+          'Image Crop and Zoom: Implement react-native-image-crop-picker for selecting and cropping images, and react-native-image-zoom-viewer for viewing images with zoom functionality.',
+        ],
+      },
+      {
+        head: 'Gesture Handling',
+        desc: [
+          'Touch Gestures: Leverage react-native-gesture-handler for implementing touch gestures within the app for improved interactivity.',
+        ],
+      },
+      {
+        head: 'Calendar and Event Management',
+        desc: [
+          'Big Calendar: Use react-native-big-calendar and react-native-calendars to manage and display events in a calendar format.',
+        ],
+      },
+      {
+        head: 'Safe Area Handling',
+        desc: [
+          'Safe Area Context: Use react-native-safe-area-context to ensure UI elements are properly positioned on devices with notches or rounded corners.',
+        ],
+      },
+      {
+        head: 'App Restart Capability',
+        desc: [
+          'React Native Restart: Use react-native-restart to allow the app to be programmatically restarted, useful for applying configuration changes.',
+        ],
+      },
+      {
+        head: 'Screen Management',
+        desc: [
+          'React Native Screens: Optimize navigation performance with react-native-screens by managing screen components more efficiently.',
+        ],
+      },
+      {
+        head: 'Swipeable Views',
+        desc: [
+          'Pager View: Implement react-native-pager-view for creating swipeable views, enhancing the user experience with carousels or paginated content.',
+        ],
+      },
+      {
+        head: 'Vector Icons',
+        desc: [
+          'Icon Library: Use react-native-vector-icons to incorporate customizable vector icons throughout the application.',
+        ],
+      },
+      {
+        head: 'Web Content Integration',
+        desc: [
+          'WebView: Use react-native-webview to display web content directly within the app, enhancing versatility.',
+        ],
+      },
+      {
+        head: 'Data Fetching and Caching',
+        desc: [
+          'React Query: Utilize react-query for managing server state, simplifying data fetching, caching, and synchronization.',
+        ],
+      },
+      {
+        head: 'State Persistence',
+        desc: [
+          'Redux Persist: Use redux-persist to persist Redux state across sessions, ensuring user data is retained even after app restarts.',
+        ],
+      },
+      {
+        head: 'Custom Dropdowns',
+        desc: [
+          'Element Dropdown: Implement react-native-element-dropdown for a stylish and functional dropdown selection experience.',
+        ],
+      },
+      {
+        head: 'Snap Carousel',
+        desc: [
+          'Carousel Component: Use react-native-snap-carousel to create responsive carousels for displaying lists of items.',
+        ],
+      },
+      {
+        head: 'TypeScript Support',
+        desc: [
+          'TypeScript Transformer: Integrate react-native-typescript-transformer for better TypeScript support and type safety in your application.',
+        ],
+      },
+    ],
+  },
+
+  // vendoria dashboard
+  {
+    id: 1,
+    show: false,
+    thumb_img: Vendoria_Dashboard_thumb,
+    thumb_imgs: [
+      Vendoria_Dashboard_thumb,
+      Vendoria_Dashboard_thumb1,
+      Vendoria_Dashboard_thumb2,
+      Vendoria_Dashboard_thumb3,
+      Vendoria_Dashboard_thumb4,
+      Vendoria_Dashboard_thumb5,
+      Vendoria_Dashboard_thumb6,
+    ],
+    brand_logo: VendoriaLogo,
+    job_title: 'E-commerce Dashboard system',
+    title: `Vendoria Dashboard`,
+    des: `Your app for managing 4 different journey inside the football world (players, tactical, medical & management) to help the club and increase efficiency`,
+    delay: '.5s',
+    category: 'Backend Development',
+    filter_id: [
+      'all',
+      'Design Work',
+      'Branding',
+      'Development',
+      'Illusutration',
+      'App Development',
+    ],
+    projectUrl:
+      'https://www.apidog.com/apidoc/shared-fd59d3bb-1115-4e3a-b8f5-3fe5a56ca00d/doc-705458',
+    gitHubCode: 'https://github.com/Vendoria/backend',
+    technologies: [
+      'Javascript',
+      'ReactJs',
+      '@cloudinary/react & cloudinary',
+      '@reduxjs/toolkit & react-redux',
+      'axios',
+      'react-hook-form',
+      'i18next & react-i18next',
+      'react-chartjs-2 & chart.js',
+      'react-toastify',
+      'react-router-dom',
+      'react-dnd',
+      '@headlessui/react',
+      'react-pdf/renderer',
+      'socket.io-client',
+    ],
+    features: [
+      {
+        head: 'User Authentication',
+        desc: [
+          'Use react-google-login for Google authentication and manage user sessions with js-cookie.',
+        ],
+      },
+      {
+        head: 'Image and File Management',
+        desc: [
+          'Integrate @cloudinary/react and cloudinary for image uploads, transformations, and management.',
+          'Use react-dropzone for an intuitive file upload experience.',
+        ],
+      },
+      {
+        head: 'Dynamic Forms',
+        desc: [
+          'Implement forms with react-hook-form for efficient form handling and validation.',
+          'Utilize react-draft-wysiwyg for rich text editing capabilities.',
+        ],
+      },
+      {
+        head: 'Multilingual Support',
+        desc: [
+          'Use i18next and react-i18next for internationalization, allowing users to switch languages seamlessly.',
+        ],
+      },
+      {
+        head: 'Data Visualization',
+        desc: [
+          'Integrate chart.js and react-chartjs-2 for displaying interactive charts and graphs.',
+        ],
+      },
+      {
+        head: 'Real-Time Features',
+        desc: [
+          'Use socket.io-client for real-time notifications, chat functionalities, or live updates.',
+        ],
+      },
+      {
+        head: 'Data Import and Export',
+        desc: [
+          'Implement csvtojson for converting CSV files to JSON format.',
+          'Use export-from-json to enable users to export data in JSON or CSV formats.',
+        ],
+      },
+      {
+        head: 'Responsive UI Components',
+        desc: [
+          'Utilize @headlessui/react and @windmill/react-ui for accessible, responsive UI components.',
+          'Implement react-responsive-modal for creating responsive modals.',
+        ],
+      },
+      {
+        head: 'User Feedback and Notifications',
+        desc: [
+          'Use react-toastify for displaying toast notifications for user actions.',
+          'Implement sweetalert for user confirmation dialogs.',
+        ],
+      },
+      {
+        head: 'Search and Autocomplete',
+        desc: [
+          'Integrate react-search-autocomplete for enabling efficient search functionalities.',
+        ],
+      },
+      {
+        head: 'Drag-and-Drop Functionality',
+        desc: [
+          'Use react-dnd and react-dnd-html5-backend for implementing drag-and-drop features in your application.',
+        ],
+      },
+      {
+        head: 'Data Persistence',
+        desc: [
+          'Utilize redux-persist to save Redux state in local storage, ensuring user data persists across sessions.',
+        ],
+      },
+      {
+        head: 'Loading States and Skeletons',
+        desc: [
+          'Use react-loading-skeleton and react-spinners to provide visual feedback during data loading.',
+        ],
+      },
+      {
+        head: 'Custom Scrollbars',
+        desc: [
+          'Implement react-custom-scrollbars-2 for creating custom-styled scrollbars that enhance user experience.',
+        ],
+      },
+      {
+        head: 'Accessibility Features',
+        desc: [
+          'Ensure your app is accessible by implementing features like keyboard navigation using react-simple-keyboard.',
+        ],
+      },
+      {
+        head: 'PDF Generation',
+        desc: [
+          'Use @react-pdf/renderer to generate and download PDF documents based on user input or data.',
+        ],
+      },
+      {
+        head: 'Tagging and Input Management',
+        desc: [
+          'Implement @pathofdev/react-tag-input and react-tag-input-component for managing user tags or categories.',
+        ],
+      },
+      {
+        head: 'State Management',
+        desc: [
+          'Utilize @reduxjs/toolkit and redux-thunk for managing global state and asynchronous actions efficiently.',
+        ],
+      },
+    ],
+  },
   // {
   //     id: 7,
   //     thumb_img: thumb_img_7,
@@ -1184,6 +1562,65 @@ export const fullScreenProjects = [
     projectUrl: '',
   },
 ];
+
+export const backendProducts = [
+  {
+    id: 1,
+    show: false,
+    thumb_img: VendoriaNode,
+    thumb_imgs: [VendoriaNode],
+    brand_logo: VendoriaLogo,
+    job_title: 'Backend E-commerce system',
+    title: `Vendoria Backend`,
+    des: `Your app for managing 4 different journey inside the football world (players, tactical, medical & management) to help the club and increase efficiency`,
+    delay: '.5s',
+    category: 'Backend Development',
+    filter_id: [
+      'all',
+      'Design Work',
+      'Branding',
+      'Development',
+      'Illusutration',
+      'App Development',
+    ],
+    projectUrl:
+      'https://www.apidog.com/apidoc/shared-fd59d3bb-1115-4e3a-b8f5-3fe5a56ca00d/doc-705458',
+  },
+];
+
+export const frontendProjects = [
+  {
+    id: 1,
+    show: false,
+    thumb_img: Vendoria_Dashboard_thumb,
+    thumb_imgs: [
+      Vendoria_Dashboard_thumb,
+      Vendoria_Dashboard_thumb1,
+      Vendoria_Dashboard_thumb2,
+      Vendoria_Dashboard_thumb3,
+      Vendoria_Dashboard_thumb4,
+      Vendoria_Dashboard_thumb5,
+      Vendoria_Dashboard_thumb6,
+    ],
+    brand_logo: VendoriaLogo,
+    job_title: 'E-commerce Dashboard system',
+    title: `Vendoria Dashboard`,
+    des: `Your app for managing 4 different journey inside the football world (players, tactical, medical & management) to help the club and increase efficiency`,
+    delay: '.5s',
+    category: 'Backend Development',
+    filter_id: [
+      'all',
+      'Design Work',
+      'Branding',
+      'Development',
+      'Illusutration',
+      'App Development',
+    ],
+    projectUrl:
+      'https://www.apidog.com/apidoc/shared-fd59d3bb-1115-4e3a-b8f5-3fe5a56ca00d/doc-705458',
+  },
+];
+
 export const emConfig = {
   serviceID: 'service_bwuvfxv',
   templateID: 'template_2eqz8fj',

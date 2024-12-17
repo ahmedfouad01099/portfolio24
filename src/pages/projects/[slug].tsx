@@ -17,7 +17,6 @@ import {projects} from 'src/utils/constants';
 
 const WhatsappClone = () => {
   const router = useRouter();
-  console.log('10-', router.query);
 
   const currentProject = projects.find(
     project => project.title === router.query?.slug,
@@ -104,9 +103,11 @@ const WhatsappClone = () => {
                   href={`${currentProject.post}`}
                   target="_blank"
                   rel="noreferrer">
-                  <button className="px-8 py-2 tracking-widest">
-                    Video Demo
-                  </button>
+                  {currentProject?.post && (
+                    <button className="px-8 py-2 tracking-widest">
+                      Video Demo
+                    </button>
+                  )}
                 </a>
               </div>
 
